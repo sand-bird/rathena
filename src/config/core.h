@@ -29,7 +29,7 @@
 
 /// Comment to enable rAthena's anonymous stat report
 /// We kindly ask you to consider keeping it enabled, it helps us improve rAthena.
-#define STATS_OPT_OUT
+//#define STATS_OPT_OUT
 
 /// uncomment to enable query_sql script command and mysql logs to function on it's own thread
 /// be aware this feature is under tests and you should use at your own risk, we however
@@ -47,7 +47,7 @@
 /// Client-sided range checks are, however, are always circular.
 /// Enabling this changes all checks to circular checks, which is more realistic,
 /// - but is not the official behaviour.
-//#define CIRCULAR_AREA
+#define CIRCULAR_AREA
 
 /// Comment to disable Guild/Party Bound item system
 /// By default, we recover/remove Guild/Party Bound items automatically
@@ -59,7 +59,7 @@
 /// Uncomment to enable skills damage adjustments
 /// By enabling this, db/skill_damage.txt and the skill_damage mapflag will adjust the
 /// damage rate of specified skills.
-//#define ADJUST_SKILL_DAMAGE
+#define ADJUST_SKILL_DAMAGE
 
 /// Uncomment to enable the job base HP/SP table (job_basehpsp_db.txt)
 #define HP_SP_TABLES
