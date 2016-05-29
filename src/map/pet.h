@@ -4,7 +4,7 @@
 #ifndef _PET_H_
 #define _PET_H_
 
-#define MAX_PET_DB	300
+#define MAX_PET_DB	5000
 #define MAX_PETLOOT_SIZE	30
 
 /// Pet DB
